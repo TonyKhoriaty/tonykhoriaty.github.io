@@ -1,0 +1,34 @@
+title: "Tony Khoriaty"
+description: "Ethical Hacker & Bug Bounty Hunter — open-source recon tools, OSINT, and security tutorials."
+url: "https://tonikhoriaty.github.io"
+
+author:
+  name: "Tony Khoriaty"
+  email: "" # optional
+  twitter_username: "tonikhoriaty" # if you make one
+  github_username: "tonikhoriaty"
+  linkedin: "tonikhoriaty"
+
+theme: minima
+minima:
+  skin: dark
+  social_links:
+    - { platform: github,  user_url: "https://github.com/tonikhoriaty" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/tonikhoriaty" }
+    # Add later when ready:
+    # - { platform: patreon, user_url: "https://patreon.com/tonykhoriaty" }
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Navigation links in the header
+header_pages:
+  - about.md
+  - blog.md
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
