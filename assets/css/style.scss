@@ -1,0 +1,35 @@
+---
+# Jekyll needs front matter
+---
+
+@import "minima";
+
+/* === Hacker vibe overrides === */
+body {
+  background-color: #0a0a0a;   /* black background */
+  color: #00ff99;             /* neon green text */
+  font-family: "Fira Code", monospace;
+}
+
+a {
+  color: #00ffcc;
+}
+a:hover {
+  color: #ff0066;
+  text-decoration: underline;
+}
+
+header.site-header {
+  background: #111;
+  border-bottom: 2px solid #00ff99;
+}
+
+footer.site-footer {
+  background: #111;
+  border-top: 2px solid #00ff99;
+}
+
+code, pre {
+  background: #111;
+  color: #00ff99;
+}
