@@ -5,18 +5,18 @@ url: "https://tonikhoriaty.github.io"
 author:
   name: "Tony Khoriaty"
   email: "" # optional
-  twitter_username: "tonikhoriaty" # if you make one
-  github_username: "tonikhoriaty"
-  linkedin: "tonikhoriaty"
+  twitter_username: "" # if you make one
+  github_username: "tonykhoriaty"
+  linkedin: "tony-khoriaty"
 
 theme: minima
 minima:
   skin: dark
   social_links:
-    - { platform: github,  user_url: "https://github.com/tonikhoriaty" }
-    - { platform: linkedin, user_url: "https://www.linkedin.com/in/tonikhoriaty" }
+    - { platform: github,  user_url: "https://github.com/tonykhoriaty" }
+    - { platform: linkedin, user_url: "https://www.linkedin.com/in/tonykhoriaty" }
     # Add later when ready:
-    # - { platform: patreon, user_url: "https://patreon.com/tonykhoriaty" }
+    # - { platform: patreon, user_url: "https://patreon.com/" }
 
 plugins:
   - jekyll-feed
